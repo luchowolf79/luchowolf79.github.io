@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 5
+    box-sizing= border-box;
+}
+
+
+body {
+    width: 100%;
+      background: #088be3;
+    background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+    background: -webkit-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+    background: linear-gradient(to right, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+    min-height: 150px;
+    text-align: center;
+    }
+
+header {
+    background: rgba(65, 62, 62, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 150;
+}
+
+nav {
+    float: center;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+
+nav ul li {
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 29px;
+}
+nav ul li a {
+  display: inline-flex;
+  padding: 6px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #eca023;
+}
+
+#titulo1 {
+  font-weight: bolder;
+  color: rgb(226, 226, 228);
+  padding: 20px;
+  font-size: 15px;
+  min-height: 202px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;}
+  
+
+
+#titulo2 {
+  font-weight: bolder;
+  color: rgb(245, 202, 145);
+  padding: 38px;
+  font-size: 30px;
+  min-height: 231px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  }
+
+h1 {
+  font-weight: bolder;
+} 
+
+
+img {    
+    border: 3px inset rgba(219,184,232,0.75);
+    display: block;
+    width: 41%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px; 
+}
+  
+
+
+ 
+span {
+    font-weight: bolder;
+    font-size: 38px;
+    min-height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:azure
+  }
+
+p {
+    font-size: 31px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mi_parrafo {
+    padding: 9px;
+    font-weight: bolder;
+    font-size: 16px;
+    border: 6px solid #e1be85;
+    min-height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(219, 235, 234)
+}
+
+#parrafoing {
+  padding: 25px;
+  color: antiquewhite;
+  font-weight: bolder;
+  font-size: 30px;
+    min-height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+#piepag {
+  font-size: 18px;
+  color: antiquewhite;
+  font-weight: bolder; 
+}
+
+u {
+  padding: 4px; 
+  font-size: 20px;
+  border: 12px solid rgb(10, 42, 69);
+  min-height: 22px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+#titulos {
+color: antiquewhite;
+font-weight: bolder;
+padding: 2px; 
+font-size: 12px;
+border: 2px solid rgba(202, 229, 176, 0.05);
+min-height: 2px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 1px;
+}
+#myButton {
+  color: rgb(245, 223, 255); margin: 5px; font-size: 10px; line-height: 1px; padding: 16px; border-radius:97px; font-family: Georgia, serif; font-weight: bolder; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display:inline-block ;}
+  #myButton:hover {
+    background: #eca023;
+}
+#myButton:active {
+background: #144E75; }
+#myButton2 {
+    color: rgb(245, 223, 255); margin: 5px; font-size: 10px; line-height: 1px; padding: 16px; border-radius:97px; font-family: Georgia, serif; font-weight: bolder; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display:inline-block ;}
+    #myButton2:hover {
+      background: #eca023;
+    }
+    #myButton2:active {
+    background: #144E75; }
+    #myButton3 {
+      color: rgb(245, 223, 255); margin: 5px; font-size: 10px; line-height: 1px; padding: 16px; border-radius:97px; font-family: Georgia, serif; font-weight: bolder; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display:inline-block ;}
+      #myButton3:hover {
+        background: #eca023;
+      }
+      #myButton3:active {
+      background: #144E75; }
+
+#piepag2 {
+margin-bottom: 22px;
+color: antiquewhite;
+font-weight: bolder;
+padding: 30px; 
+font-size: 20px;
+border: 12px solid rgba(202, 229, 176, 0.05);
+min-height: 22px;
+display: flexbox;
+align-items: center;
+justify-content: center;
+}
+
+
+
+#titulo3 {
+  font-weight: bolder;
+  color: rgb(245, 202, 145);
+  font-size: 5px;
+  min-height: 215px;
+  display: flex;
+  align-items: flex-end;
+  justify-content:first baseline ;
+        -webkit-box-shadow: 4px -2px 21px 12px rgba(205,148,255,0.87); 
+    box-shadow: 14px -14px 21px 12px rgba(205,148,255,0.87);
+   background-color: #1C6EA4;
+       color: #FFF;
+     padding: 2px;
+    border-style: groove 24px;
+    }
+
+
+.form {
+  width: 100%;
+  max-width: 123px;
+  margin: 41px;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  
+}
+
+.form input {
+  width: 95%;
+  height: 46px;
+  margin: 12px;
+}
+
+.form button {
+  padding: 0.5em 1em;
+  border: 2px, #eca023; 
+  background: rgb(red, green, rgb(12, 12, 203));
+  cursor: pointer;
+}
